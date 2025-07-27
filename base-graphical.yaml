@@ -1,0 +1,11 @@
+impl: https://github.com/bzvestey/blend-os-tracks/raw/main
+track: base-headless
+
+packages:
+  - ghostty
+  - zed
+  - blendos-wallpapers-git
+
+aur-packages:
+  - 1password
+  - visual-studio-code-bin

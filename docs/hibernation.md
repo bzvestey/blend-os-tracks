@@ -1,0 +1,3 @@
+- https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation
+- https://wiki.archlinux.org/title/Mkinitcpio#Image_creation_and_activation
+- https://wiki.archlinux.org/title/Swap

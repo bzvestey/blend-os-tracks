@@ -1,0 +1,80 @@
+impl: https://github.com/bzvestey/blend-os-tracks/raw/main
+track: base-graphical
+
+packages:
+  - baobab
+  - evince
+  - gdm
+  - gnome-backgrounds
+  - gnome-calculator
+  - gnome-calendar
+  - gnome-characters
+  - gnome-clocks
+  - gnome-color-manager
+  - gnome-connections
+  - gnome-console
+  - gnome-contacts
+  - gnome-control-center
+  - gnome-disk-utility
+  - gnome-font-viewer
+  - gnome-keyring
+  - gnome-logs
+  - gnome-maps
+  - gnome-menus
+  - gnome-music
+  - gnome-remote-desktop
+  - gnome-session
+  - gnome-settings-daemon
+  - gnome-shell
+  - gnome-shell-extensions
+  - gnome-software
+  - gnome-system-monitor
+  - gnome-text-editor
+  - gnome-user-docs
+  - gnome-user-share
+  - gnome-weather
+  - grilo-plugins
+  - gvfs
+  - gvfs-afc
+  - gvfs-goa
+  - gvfs-google
+  - gvfs-gphoto2
+  - gvfs-mtp
+  - gvfs-nfs
+  - gvfs-smb
+  - loupe
+  - malcontent
+  - nautilus
+  - orca
+  - rygel
+  - simple-scan
+  - snapshot
+  - sushi
+  - tecla
+  - totem
+  - tracker3-miners
+  - xdg-desktop-portal-gnome
+  - xdg-user-dirs-gtk
+  - yelp
+  - waydroid
+  - waydroid-image
+  - gnome-shell-extension-dash-to-dock
+  - gnome-shell-extension-blur-my-shell
+  - gnome-shell-extension-appindicator
+  - gnome-shell-extension-wallpaper-slideshow
+  - gnome-initial-setup
+
+services:
+  - gdm
+
+commands:
+  - find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.gnome.Software.Plugin.Flatpak.metainfo.xml" ! -name "org.gnome.Software.Plugin.Fwupd.metainfo.xml"  -type f -exec rm -f {} +
+  - rm -f /usr/share/applications/stoken-gui.desktop
+  - rm -f /usr/share/applications/stoken-gui-small.desktop
+  - rm -f /usr/share/applications/qvidcap.desktop
+  - rm -f /usr/share/applications/qv4l2.desktop
+  - rm -f /usr/share/applications/bvnc.desktop
+  - rm -f /usr/share/applications/electron*.desktop
+  - rm -f /usr/share/applications/avahi-discover.desktop
+  - rm -f /usr/share/applications/bssh.desktop
+  - rm -f /usr/share/applications/Waydroid.desktop
