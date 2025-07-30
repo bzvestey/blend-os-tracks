@@ -182,6 +182,9 @@ packages:
 aur-packages:
   - 1password-cli
 
+  # Fonts
+  - ttf-meslo-nerd-font-powerlevel10k
+
 services:
   - cups
   - bluetooth
