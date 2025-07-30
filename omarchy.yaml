@@ -1,0 +1,73 @@
+impl: https://github.com/bzvestey/blend-os-tracks/raw/main
+track: base-graphical
+
+packages:
+  # Omarchy install/desktop/desktop.sh
+  - brightnessctl
+  - playerctl
+  - pamixer
+  - wiremix
+  - wireplumber
+  - fcitx5
+  - fcitx5-gtk
+  - fcitx5-qt
+  - wl-clip-persist
+  - nautilus
+  - sushi
+  - ffmpegthumbnailer
+  - slurp
+  - satty
+  - mpv
+  - evince
+  - imv
+  - wf-recorder # Might need to replate with aur package wl-screenrec
+
+  # Omarchy install/desktop/hyperlandia.sh
+  - hyprland
+  - hyprshot
+  - hyprpicker
+  - hyprlock
+  - hypridle
+  - polkit-gnome
+  - hyprland-qtutils
+  - libqalculate
+  - waybar
+  - mako
+  # - swaybg # replaced by wpaperd, as this is just a static wallpaper
+  - swayosd
+  - xdg-desktop-portal-hyprland
+  - xdg-desktop-portal-gtk
+
+  # Omarchy install/desktop/bluetooth.sh
+  - blueberry
+
+  # Omarchy install/desktop/printer.sh
+  - system-config-printer
+
+  # Omarchy install/apps/xtras.sh
+  - gnome-calculator
+  - gnome-keyring
+  # - signal-desktop # Replate with flatpak
+  # - obsidian # Replace with flatpak
+  # - obs-studio # Replace with flatpak
+  # - kdenlive # Replate with flatpak
+  # - xournalpp
+
+  # Personal
+  - wpaperd # replaces swaybg to add rotating backgrounds (config: https://github.com/danyspin97/wpaperd)
+
+aur-packages:
+  - lazydocker-bin
+
+  # Omarch install/desktop/hyperlandia.sh
+  - walker-bin
+
+  # Omarchy install/apps/xtras.sh
+  # - localsend-bin
+  - pinta
+  # - typora
+  # - spotify
+  # - zoom
+
+services:
+  -

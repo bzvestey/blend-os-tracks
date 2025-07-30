@@ -7,10 +7,6 @@ packages:
   - b43-fwcutter
   - archlinux-keyring
   - base-devel
-  - git
-  - jujutsu
-  - bash
-  - zsh
   - bzip2
   - coreutils
   - file
@@ -35,7 +31,7 @@ packages:
   - systemd-sysvcompat
   - tar
   - util-linux
-  - xz 
+  - xz
   - bash
   - bash-completion
   - bind
@@ -81,7 +77,13 @@ packages:
   - mkinitcpio-nfs-utils
   - modemmanager
   - mtools
-  - nano
+
+  # System
+  - filesystem-blend
+  - fprintd
+  - cups
+  - cups-pdf
+  - cups-filters
   - nbd
   - ndisc6
   - nfs-utils
@@ -118,23 +120,67 @@ packages:
   - xl2tpd
   - bluez
   - networkmanager
-  - cups
+
+  # Fonts
+  - noto-fonts
+  - noto-fonts-emoji
+  - noto-fonts-cjk
+  - noto-fonts-extra
+  - ttf-hack-nerd
+  - ttf-meslo-nerd-font-powerlevel10k
+  - ttf-indic-otf
+  - ttf-dejavu
+  - ttf-font-awesome
   - ttf-jetbrains-mono
-  - tmux
+
+  # Language
+  - clang
+  - llvm
+  - rust
+
+  # Utils
+  - imagemagick
+  - inetutils
+  - mise
+  - syncthing
   - tailscale
+  - nano
+
+  # Terminal
+  - bash
+  - zsh
+  - zsh-completions
+  - tmux
+
+  # Development
+  - terraform
+  - lazygit
   - direnv
   - uv
   - kubectl
   - podman-compone
   - podman-docker
-  - syncthing
-  - filesystem-blend
-  - noto-fonts
-  - ttf-hack-nerd
-  - ttf-meslo-nerd-font-powerlevel10k
-  - ttf-indic-otf
-  - ttf-dejavu
-  - fprintd
+  - git
+  - jujutsu
+
+  # Check these out...
+  - impala
+  - fd
+  - eza
+  - fzf
+  - ripgrep
+  - zoxide
+  - bat
+  - jq
+  - wl-clipboard
+  - fastfetch
+  - btop
+  - tldr
+  - whois
+  - plocate
+
+aur-packages:
+  - 1password-cli
 
 services:
   - cups
