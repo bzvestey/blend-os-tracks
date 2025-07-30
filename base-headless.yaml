@@ -127,7 +127,6 @@ packages:
   - noto-fonts-cjk
   - noto-fonts-extra
   - ttf-hack-nerd
-  - ttf-meslo-nerd-font-powerlevel10k
   - ttf-indic-otf
   - ttf-dejavu
   - ttf-font-awesome
