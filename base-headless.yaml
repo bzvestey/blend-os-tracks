@@ -157,7 +157,7 @@ packages:
   - direnv
   - uv
   - kubectl
-  - podman-compone
+  - podman-compose
   - podman-docker
   - git
   - jujutsu
