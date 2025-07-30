@@ -20,27 +20,7 @@ This is the repository is my personal collection of opinionated tracks that I us
 
 ## Flatpacks to install
 
-### Browsers
-
-- com.google.Chrome
-- org.mozilla.firefox
-
-### Communication
-- com.discordapp.Discord
-
-### Development
-
-- io.podman_desktop.PodmanDesktop
-
-### 3D printing
-
-- com.bambulab.BambuStudio
-- com.prusa3d.PrusaSlicer
-
-### Gaming
-
-- com.valvesoftware.Steam
-- net.lutris.Lutris
+Run `./scripts/flatpaks.sh` to install the flatpaks.
 
 
 ## Imprtant links

@@ -1,3 +1,5 @@
+# This is based on the [omarchy]() setup, but tailered to my need and the design of blend-os
+
 impl: https://github.com/bzvestey/blend-os-tracks/raw/main
 track: base-graphical
 
@@ -33,7 +35,6 @@ packages:
   - libqalculate
   - waybar
   - mako
-  # - swaybg # replaced by wpaperd, as this is just a static wallpaper
   - swayosd
   - xdg-desktop-portal-hyprland
   - xdg-desktop-portal-gtk
@@ -47,11 +48,6 @@ packages:
   # Omarchy install/apps/xtras.sh
   - gnome-calculator
   - gnome-keyring
-  # - signal-desktop # Replate with flatpak
-  # - obsidian # Replace with flatpak
-  # - obs-studio # Replace with flatpak
-  # - kdenlive # Replate with flatpak
-  # - xournalpp
 
   # Personal
   - wpaperd # replaces swaybg to add rotating backgrounds (config: https://github.com/danyspin97/wpaperd)
@@ -62,12 +58,6 @@ aur-packages:
   # Omarch install/desktop/hyperlandia.sh
   - walker-bin
 
-  # Omarchy install/apps/xtras.sh
-  # - localsend-bin
-  - pinta
-  # - typora
-  # - spotify
-  # - zoom
-
-services:
-  -
+  # Omarchy install/apps/xtras.sh - all of these are done via flatpak
+# services:
+#   -
